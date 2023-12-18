@@ -8,7 +8,7 @@ function calculatePayeTax(salary){
         [24001,32333,0.25],
         [32334,500000,0.3],
         [500001,800000,0.325],
-        [800000,0.35]
+        [800001,Infinity,0.35]
     ];
 //   initialzes the tax variable to 0
         let tax = 0;
@@ -18,7 +18,7 @@ function calculatePayeTax(salary){
                 // calculates using the given rate and breakout  the loop
                 tax = salary * rate;
                 break;
-            }
+            }CDATASection
         }
 // return the tax calculated
         return tax;
